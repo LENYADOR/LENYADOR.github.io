@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="./assets/js/reviews.js"></script>
+    <link rel="stylesheet" href="assets/css/reviews.css">
+</head>
+
+<body>
+	<div class="feedback-form">
+		<h1 style="text-align: center;">MAKE A REVIEW!</h1>
+		<form id="makereview">
+			<div class="rating" style="justify-content: center;">
+				<!-- Notice that the stars are in reverse order -->
+				<input type="radio" id="star5" name="rating" value="5">
+				<label for="star5">&#9733;</label>
+				<input type="radio" id="star4" name="rating" value="4">
+				<label for="star4">&#9733;</label>
+				<input type="radio" id="star3" name="rating" value="3">
+				<label for="star3">&#9733;</label>
+				<input type="radio" id="star2" name="rating" value="2">
+				<label for="star2">&#9733;</label>
+				<input type="radio" id="star1" name="rating" value="1">
+				<label for="star1">&#9733;</label>
+			</div>
+			<div class="comment">
+				<label for="comment">Tell us more:</label><br>
+				<textarea id="comment" name="comment"></textarea>
+			</div>
+			<center><button type="submit" class="submit-btn">Submit</button></center>
+		</form>
+	</div>
+
+</body>
